@@ -82,14 +82,11 @@ body {
    color: #34598f;
  }
 
- .fist-nav-link  i{
+
+.first-nav-link  i{
   font-size: 1.3rem;
   margin-right: .3rem;
 }
-
-/* .first-nav-link> i{
-  padding-right: .5rem;
-} */
 
 .search{
   grid-column:8/10;
