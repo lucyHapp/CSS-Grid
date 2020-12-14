@@ -13,9 +13,31 @@
 </head>
 
 <body>
-  <input type="checkbox" name="" id="show-hide-forms">
+  <input type="checkbox" name="" id="show-hide-forms" hidden>
   <div class="forms-wrapper">
     <label class="x-btn" for="show-hide-forms">&#10005;</label>
+    <input type="checkbox" name="" id="show-form" hidden>
+    <div class="show-btns-wrapper">
+      <label for="show-form" class="show-form-btn show-signup-form">Sign Up</label>
+      <label for="show-form" class="show-form-btn show-login-form">Login</label>
+    </div>
+    <form action="" class="signup-form">
+      <h3 class="form-heading">Sign Up</h3>
+      <div class="fullname-input-wrapper">
+        <input type="text" placeholder="First Name" name="" id="">
+        <input type="text" placeholder="Second Name" name="" id="">
+      </div>
+      <input type="text" class="form-input" placeholder="Username">
+      <input type="email" class="form-input" placeholder="Email Address">
+      <input type="password" class="form-input" placeholder="Password">
+      <input type="submit" value="SIGN UP" class="form-btn">
+    </form>
+    <form action="" class="login-form">
+      <h3 class="form-heading">Log In </h3>
+      <input type="email" class="form-input" placeholder="Email Address">
+      <input type="password" class="form-input" placeholder="Password">
+      <input type="submit" value="LOG IN" class="form-btn">
+    </form>
   </div>
   <div class="container">
     <ul class="social-icons">
@@ -35,17 +57,26 @@
     <nav class="first-nav">
       <ul class="first-nav-list">
         <li class="first-nav-item">
-          <a href="#" class="first-nav-link"><label for="show-hide-forms"><i class="fas fa-sign-in-alt"></i>Sign Up /
-              Log In</label></a>
+          <a href="#" class="first-nav-link">
+            <label for="show-hide-forms">
+              <i class="fas fa-sign-in-alt"></i>Sign Up / Log In
+            </label>
+          </a>
         </li>
         <li class="first-nav-item">
-          <a href="#" class="first-nav-link"><i class="fas fa-shopping-cart"></i>Cart(<span>2 Items</span>)</a>
+          <a href="#" class="first-nav-link">
+            <i class="fas fa-shopping-cart"></i>Cart(<span>2 Items</span>)
+          </a>
         </li>
         <li class="first-nav-item">
-          <a href="#" class="first-nav-link"><i class="fas fa-truck"></i>Order Now</a>
+          <a href="#" class="first-nav-link">
+            <i class="fas fa-truck"></i>Order Now
+          </a>
         </li>
         <li class="first-nav-item">
-          <a href="#" class="first-nav-link"><i class="fas fa-heart"></i>Wish List</a>
+          <a href="#" class="first-nav-link">
+            <i class="fas fa-heart"></i>Wish List
+          </a>
         </li>
       </ul>
     </nav>
@@ -143,10 +174,10 @@
         </button>
       </div>
       <div class="slideshow">
-        <button class="slide-btn slide-btn-1"></button>
-        <button class="slide-btn slide-btn-2"></button>
-        <button class="slide-btn slide-btn-3"></button>
-        <button class="slide-btn slide-btn-4"></button>
+        <button class="slideshow-btn slideshow-btn-1"></button>
+        <button class="slideshow-btn slideshow-btn-2"></button>
+        <button class="slideshow-btn slideshow-btn-3"></button>
+        <button class="slideshow-btn slideshow-btn-4"></button>
         <div class="slideshow-wrapper">
           <div class="slide">
             <img src="./images/slide-img-1.jpg" alt="">
